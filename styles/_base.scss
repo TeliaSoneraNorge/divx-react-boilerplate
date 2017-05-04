@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: $font-normal;
+  height: 100%;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-overflow-scrolling: touch;
+  color: $color-text;
+  background-color: $color-background-grey;
+  height: 100%;
+}
+
+#app, main {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}

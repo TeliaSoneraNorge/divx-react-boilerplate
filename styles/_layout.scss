@@ -1,0 +1,40 @@
+.content-light {
+  background-color: $color-background-light;
+}
+
+.content-secondary-color {
+  background-color: $secondary-color;
+}
+
+.layout-section {
+  max-width: $max-content-width;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+
+  &.layout-narrow {
+    max-width: $narrow-content-width;
+  }
+
+  &.layout-section-mobile-full {
+    padding: 1.5rem 0;
+  }
+
+  @media (min-width: $screen-sm) {
+    padding: 3rem 2rem;
+  }
+}
+
+.layout-centered-content {
+  text-align: center;
+}
+
+.layout-form-buttons {
+  max-width: $max-form-width;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+
+  > div:not(.last-child) {
+    margin-right: 0.75rem;
+  }
+}

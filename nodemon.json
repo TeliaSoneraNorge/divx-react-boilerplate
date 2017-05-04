@@ -1,0 +1,3 @@
+{
+  "ignore": ["static", "styles", "client", "scripts"]
+}

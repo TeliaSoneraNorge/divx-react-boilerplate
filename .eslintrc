@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "id-length": 0,
+    "react/jsx-filename-extension": 0,
+    "arrow-body-style": 0,
+    "no-mixed-operators": 0,
+    "react/forbid-prop-types": 0,
+    "react/no-find-dom-node": 0,
+    "react/sort-comp": 0
+  }
+}

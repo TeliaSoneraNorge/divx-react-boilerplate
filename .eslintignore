@@ -1,0 +1,6 @@
+static
+Gruntfile.js
+/test
+/node_modules
+/coverage
+/docker-createDynamoStructure.js

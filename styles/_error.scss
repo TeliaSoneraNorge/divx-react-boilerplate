@@ -1,0 +1,25 @@
+.error-page {
+  background-color: $secondary-color;
+  color: #fafafa;
+  flex: 1 1 auto;
+}
+
+.error-type {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.error-title {
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.error-text {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #fafafa;
+  line-height: 1.44;
+}
