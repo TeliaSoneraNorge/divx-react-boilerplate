@@ -36,7 +36,7 @@ class ExamplePage extends React.Component {
     }
 
     return (
-      <div>
+      <div style={{ padding: 30 }}>
         <h1>{example.name}</h1>
         <div>ID {example.id}</div>
       </div>

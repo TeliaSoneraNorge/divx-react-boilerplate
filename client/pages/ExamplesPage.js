@@ -35,7 +35,7 @@ class ExamplesPage extends React.Component {
     const examplesComponent = examples.map(e => <li><Link to={`/examples/${e.id}`}>{e.name}</Link></li>);
 
     return (
-      <div>
+      <div style={{ padding: 30 }}>
         <h1>Examples</h1>
         <ul>
           {examplesComponent}

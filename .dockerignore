@@ -1,0 +1,10 @@
+client/
+node_modules/
+styles/
+webpack/
+npm-debug.log
+postcss.config.js
+README.md
+nodemon.json
+.eslintignore
+.eslintrc
